@@ -26,3 +26,11 @@ Second, you have to run both frontend and backend by using docker compose comman
 ```
 docker-compose up
 ```
+
+## License
+
+This software is created by [Band Protocol](https://bandprotocol.com) and is released under [the MIT License](https://opensource.org/licenses/MIT).
+
+## Contributing
+
+Any and all contributions are welcome! The process is simple: fork this repo, make your changes, and submit a pull request.
