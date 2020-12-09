@@ -1,4 +1,4 @@
-# Twitter Tip Bot
+# Twitter Tip Bot for Bandchain using Pyband and Bandchain.js
 
 The example application that implemented by using Pyband and Bandchain.js
 
