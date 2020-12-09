@@ -2,17 +2,16 @@
 
 The example application that implemented by using Pyband and Bandchain.js
 
-## Feature
+## Features
 
-- Frontend: The web application is to display the `#testbot1151` tweet feed
-- Backend: The bot is to pull the `#testbot1151` tweet and send BAND automatically by detecting the keyword on pulled tweets
+- Frontend: The web application is to display the `#testbot1151` tweet feed, there is account search function to show balance in different unit.
+- Backend: The bot is to pull the `#testbot1151` tweet and send BAND automatically by detecting the keyword on pulled tweets.
 
 ## Deployment
 
-### Nginx config
+You can deploy it by follow these steps below.
 
-First, you have to replace `<YOUR_HOSTNAME>` with your hostname on `nginx/nginx.conf` to the domain name that you're using.
-It can be `localhost` if you run locally.
+First, you have to replace `<YOUR_HOSTNAME>` with your hostname on `nginx/nginx.conf`. It can be `localhost` if you run locally.
 
 ```
  server {
@@ -22,7 +21,7 @@ It can be `localhost` if you run locally.
     ...
 ```
 
-### Docker
+Second, you have to run both frontend and backend by using docker compose command on right below.
 
 ```
 docker-compose up

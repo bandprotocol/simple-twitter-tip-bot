@@ -2,7 +2,7 @@
 
 The twitter tip bot application were built from python using Pyband as the client library.
 
-The application is pulling the tweets which has `#testbot1151` hashtag, then filtering only the tweet which matches with `@user1 send 2 to @user2 #testbot1151`, so the bot will send 2 BAND tokens from @user1 to @user2 automatically.
+The application is pulling the tweets from `#testbot1151` hastag tweet, then filtering only the tweet which matches with `@user1 send 2 to @user2 #testbot1151`, so the bot will send 2 BAND tokens from @user1 to @user2 automatically.
 
 ## Installation
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ### Twitter API key Config
 
-First, you have to get the twitter api from [Twitter Developer](https://developer.twitter.com/en).
+ฺBefore running the server, you have to get the twitter api from [Twitter Developer](https://developer.twitter.com/en).
 After that, filiing the api to `config.py`.
 
 The RPC_URL can be changed to any RPC in BandChain, in the example we are using GuanYu Testnet.

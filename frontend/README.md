@@ -1,7 +1,7 @@
 # Getting started with Twitter Tip Bot FrontEnd
 
-The web application is to display the transaction feed that is happening on Twitter tip bot including the account search function.
-This web app is created from create-react-app and it's also using bandchain.js
+This is the web application for displaying the transaction feed that is happening on Twitter tip bot. You can search the twitter account to see the balance in different unit.
+This web application is created from create-react-app and using bandchain.js
 
 ## Installation
 
